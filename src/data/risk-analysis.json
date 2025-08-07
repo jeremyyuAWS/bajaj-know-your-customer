@@ -1,0 +1,47 @@
+{
+  "90210": {
+    "location": "Beverly Hills, CA 90210",
+    "crime_score": 2,
+    "infrastructure_score": 9,
+    "socio_economic_score": 9,
+    "historical_claim_rate": "Low",
+    "risk_level": "Low",
+    "recommendation": "This location is considered low risk due to strong infrastructure, low crime rate, and high economic stability.",
+    "explanations": {
+      "crime_score": "Low incidence of theft and vandalism over past 3 years.",
+      "infrastructure_score": "Well-maintained roads, utilities, and emergency response access.",
+      "socio_economic_score": "Affluent community with high property values and low unemployment.",
+      "historical_claim_rate": "Below-average home insurance claims in past 5 years."
+    }
+  },
+  "10001": {
+    "location": "New York, NY 10001",
+    "crime_score": 6,
+    "infrastructure_score": 7,
+    "socio_economic_score": 7,
+    "historical_claim_rate": "Medium",
+    "risk_level": "Medium",
+    "recommendation": "This location presents moderate risk with urban density factors and moderate crime rates requiring careful consideration.",
+    "explanations": {
+      "crime_score": "Moderate property crime rates typical of dense urban areas.",
+      "infrastructure_score": "Good transit and utilities but aging infrastructure in some areas.",
+      "socio_economic_score": "Mixed-income area with stable employment but high cost of living.",
+      "historical_claim_rate": "Average claim frequency for metropolitan area."
+    }
+  },
+  "DEFAULT": {
+    "location": "Sample Location, ST 12345",
+    "crime_score": 5,
+    "infrastructure_score": 6,
+    "socio_economic_score": 5,
+    "historical_claim_rate": "Medium",
+    "risk_level": "Medium", 
+    "recommendation": "This location shows moderate risk factors requiring standard underwriting protocols.",
+    "explanations": {
+      "crime_score": "Average crime rates for similar demographic areas.",
+      "infrastructure_score": "Standard infrastructure with typical maintenance levels.",
+      "socio_economic_score": "Middle-income community with stable economic indicators.",
+      "historical_claim_rate": "Standard claim rates for this geographic region."
+    }
+  }
+}

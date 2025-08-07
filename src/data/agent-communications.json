@@ -1,0 +1,55 @@
+{
+  "session_id": "SESSION_2024_001",
+  "customer_id": "CUSTOMER_001",
+  "agent_messages": [
+    {
+      "timestamp": "2024-01-20T10:00:01Z",
+      "from_agent": "communication-analysis",
+      "to_agent": "behavior-profiling",
+      "message_type": "data_share",
+      "content": {
+        "tone_scores": { "politeness": 9.2, "clarity": 8.8, "cooperativeness": 9.5 },
+        "confidence": 0.94,
+        "recommendation": "Customer shows excellent communication patterns, recommend for behavior analysis"
+      }
+    },
+    {
+      "timestamp": "2024-01-20T10:00:02Z",
+      "from_agent": "behavior-profiling",
+      "to_agent": "risk-scoring",
+      "message_type": "analysis_complete",
+      "content": {
+        "behavior_score": 8.9,
+        "consistency_rating": 9.1,
+        "cooperation_level": "high",
+        "data_quality": "excellent",
+        "confidence": 0.91
+      }
+    },
+    {
+      "timestamp": "2024-01-20T10:00:03Z",
+      "from_agent": "risk-scoring",
+      "to_agent": "personalization",
+      "message_type": "risk_assessment",
+      "content": {
+        "overall_risk": "low",
+        "risk_factors": [],
+        "positive_factors": ["excellent_communication", "high_cooperation", "policy_aware"],
+        "confidence": 0.96,
+        "recommendation": "approve_for_preferred_rates"
+      }
+    },
+    {
+      "timestamp": "2024-01-20T10:00:04Z",
+      "from_agent": "personalization",
+      "to_agent": "communication-analysis",
+      "message_type": "final_recommendation",
+      "content": {
+        "premium_adjustment": "-15%",
+        "reasoning": "Customer demonstrates excellent communication and behavior patterns",
+        "confidence": 0.93,
+        "human_review_required": false
+      }
+    }
+  ]
+}

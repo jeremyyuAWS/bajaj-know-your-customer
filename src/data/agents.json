@@ -1,0 +1,34 @@
+[
+  {
+    "id": "communication-analysis",
+    "name": "Communication Analysis Agent",
+    "description": "Analyzes voice tone, language patterns, and communication style from customer interactions",
+    "icon": "MessageSquare",
+    "status": "completed",
+    "processing_time": "0.8s"
+  },
+  {
+    "id": "behavior-profiling",
+    "name": "Behavior Profiling Agent", 
+    "description": "Evaluates customer behavior patterns, policy awareness, and interaction history",
+    "icon": "User",
+    "status": "completed",
+    "processing_time": "1.1s"
+  },
+  {
+    "id": "risk-scoring",
+    "name": "Customer Risk Scoring Agent",
+    "description": "Combines communication and behavior data to generate comprehensive customer risk profiles",
+    "icon": "Calculator",
+    "status": "completed", 
+    "processing_time": "0.9s"
+  },
+  {
+    "id": "personalization",
+    "name": "Personalization & Recommendation Agent",
+    "description": "Generates personalized premium adjustments and underwriting recommendations",
+    "icon": "Brain",
+    "status": "completed",
+    "processing_time": "0.6s"
+  }
+]

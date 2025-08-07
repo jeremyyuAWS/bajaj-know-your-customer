@@ -1,0 +1,50 @@
+{
+  "CUSTOMER_001": {
+    "customer_id": "CUSTOMER_001",
+    "customer_name": "Sarah Johnson",
+    "communication_score": 9,
+    "behavior_score": 8,
+    "policy_awareness_score": 9,
+    "overall_risk_level": "Low",
+    "premium_adjustment": "-15%",
+    "recommendation": "This customer demonstrates excellent communication skills, high policy awareness, and cooperative behavior. Recommended for preferential rates.",
+    "explanations": {
+      "communication_score": "Polite, clear communication with professional tone in all interactions.",
+      "behavior_score": "Consistently provides accurate information and responds promptly to requests.",
+      "policy_awareness_score": "Demonstrates thorough understanding of policy terms and coverage options.",
+      "premium_adjustment": "Customer qualifies for good driver/customer discount due to low risk profile."
+    }
+  },
+  "CUSTOMER_002": {
+    "customer_id": "CUSTOMER_002", 
+    "customer_name": "Mike Rodriguez",
+    "communication_score": 4,
+    "behavior_score": 3,
+    "policy_awareness_score": 2,
+    "overall_risk_level": "High",
+    "premium_adjustment": "+25%",
+    "recommendation": "Customer shows concerning communication patterns and behavior. Recommend manual review and higher premium due to elevated risk factors.",
+    "explanations": {
+      "communication_score": "Frequently aggressive tone, uses evasive language when questioned about details.",
+      "behavior_score": "Multiple instances of providing inconsistent information across interactions.",
+      "policy_awareness_score": "Limited understanding of policy implications, asks few clarifying questions.",
+      "premium_adjustment": "Risk-based pricing adjustment applied due to communication and behavior concerns."
+    }
+  },
+  "DEFAULT": {
+    "customer_id": "SAMPLE_CUSTOMER",
+    "customer_name": "Sample Customer",
+    "communication_score": 6,
+    "behavior_score": 6,
+    "policy_awareness_score": 5,
+    "overall_risk_level": "Medium",
+    "premium_adjustment": "Standard Rate",
+    "recommendation": "Customer shows typical communication and behavior patterns. Standard underwriting protocols apply.",
+    "explanations": {
+      "communication_score": "Average communication style with no significant red flags.",
+      "behavior_score": "Standard customer behavior patterns observed.",
+      "policy_awareness_score": "Basic understanding of policy terms and coverage needs.",
+      "premium_adjustment": "No adjustment needed - standard rates apply."
+    }
+  }
+}

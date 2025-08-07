@@ -1,0 +1,74 @@
+{
+  "CUSTOMER_001": {
+    "interactions": [
+      {
+        "id": "INT_001_01",
+        "type": "phone_call",
+        "timestamp": "2024-01-15T10:30:00Z",
+        "duration": "12:34",
+        "transcript_summary": "Customer called to inquire about home insurance. Spoke clearly, asked relevant questions about coverage options, provided accurate personal information.",
+        "tone_analysis": {
+          "politeness": 9.2,
+          "clarity": 8.8,
+          "cooperativeness": 9.5,
+          "emotional_state": "calm"
+        },
+        "red_flags": [],
+        "positive_signals": ["accurate_information", "relevant_questions", "professional_tone"]
+      },
+      {
+        "id": "INT_001_02",
+        "type": "email",
+        "timestamp": "2024-01-16T14:22:00Z",
+        "subject": "Follow-up questions about policy terms",
+        "sentiment_score": 8.7,
+        "language_analysis": {
+          "complexity": "appropriate",
+          "grammar_quality": 9.1,
+          "technical_understanding": 8.5
+        },
+        "content_flags": ["well_structured", "specific_questions", "policy_awareness"]
+      }
+    ],
+    "behavior_timeline": [
+      { "date": "2024-01-15", "behavior_score": 9.1, "communication_score": 9.0 },
+      { "date": "2024-01-16", "behavior_score": 9.0, "communication_score": 8.9 }
+    ]
+  },
+  "CUSTOMER_002": {
+    "interactions": [
+      {
+        "id": "INT_002_01",
+        "type": "phone_call",
+        "timestamp": "2024-01-12T16:45:00Z",
+        "duration": "8:12",
+        "transcript_summary": "Customer called about claim denial. Became increasingly agitated, used confrontational language, provided conflicting information about incident details.",
+        "tone_analysis": {
+          "politeness": 3.1,
+          "clarity": 4.2,
+          "cooperativeness": 2.8,
+          "emotional_state": "agitated"
+        },
+        "red_flags": ["conflicting_information", "aggressive_tone", "poor_cooperation"],
+        "positive_signals": []
+      },
+      {
+        "id": "INT_002_02",
+        "type": "chat",
+        "timestamp": "2024-01-13T09:15:00Z",
+        "message_count": 23,
+        "sentiment_score": 2.3,
+        "language_analysis": {
+          "complexity": "evasive",
+          "grammar_quality": 5.2,
+          "technical_understanding": 3.1
+        },
+        "content_flags": ["evasive_responses", "frequent_topic_changes", "minimal_policy_knowledge"]
+      }
+    ],
+    "behavior_timeline": [
+      { "date": "2024-01-12", "behavior_score": 3.2, "communication_score": 3.5 },
+      { "date": "2024-01-13", "behavior_score": 2.9, "communication_score": 2.8 }
+    ]
+  }
+}
